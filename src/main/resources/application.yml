@@ -1,0 +1,10 @@
+management.endpoints.web.exposure.include: "*"
+
+server.port: 9082
+
+demo-application:
+  message-property: Hello World from application.yml
+  name: Profiles
+  message: Message from application.yml
+
+spring.profiles.active: demo
